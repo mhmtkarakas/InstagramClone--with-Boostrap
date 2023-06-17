@@ -3,14 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(236, 235, 235);
+}
 nav{
     height: 54px;
 }
 .middlearea {
     margin-top: 80px;
+    max-height: 200px !important;
 }
 .storyphoto{
     width: 60px;
     border-radius: 50%;
     border: 2px solid red;
+}
+.storytext{
+    color: black;
+}
+.bg-card{
+    background-color: #fff;
+}
+.ul{
+    list-style: none;
 }
